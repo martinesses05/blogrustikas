@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.btn {
+  background-color: #c62828;
+  color: white;
+}
+.btn:hover {
+  background-color: #d84315;
+}
